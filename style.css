@@ -13,3 +13,12 @@ body{
     margin: 0;
     padding:0;
 }
+
+.conteudo-princiapal{
+    background-image: url("./img/hellokitty.jpg");
+    background-repeat:no-repeat ;
+}
+
+.container{
+    height: 100vh;
+}
