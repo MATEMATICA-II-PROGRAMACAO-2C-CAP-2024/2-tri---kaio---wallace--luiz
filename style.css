@@ -17,8 +17,14 @@ body{
 .conteudo-principal{
     background-image: url("./img/hellokitty.jpg");
     background-repeat:no-repeat ;
+    background-size:cover;
+}
+.imagem-principal{
+    width: 120px;
 }
 
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
