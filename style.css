@@ -23,6 +23,8 @@ body{
     background-image: url("./img/hellokitty.jpg");
     background-repeat:no-repeat ;
     background-size:cover;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -36,8 +38,9 @@ body{
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;
+    display: black;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao__secundario{
@@ -58,4 +61,8 @@ body{
 .container__imagem{
     margin:1em 0 2em 0;
     width: 120px;
+}
+
+.container__caixa{
+    margin: 0 6em;
 }
