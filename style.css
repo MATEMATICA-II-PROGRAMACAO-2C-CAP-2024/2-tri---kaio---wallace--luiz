@@ -22,7 +22,7 @@ body{
 .conteudo-principal{
     background-image: url("./img/hellokitty.jpg");
     background-repeat:no-repeat ;
-    background-size:cover;
+    background-size:contain;
     align-items: center;
     text-align: center;
 }
